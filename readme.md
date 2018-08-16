@@ -152,3 +152,12 @@ public class CxfUtilsTest {
     }
 }
 </pre>
+
+### 四、静态调用
+<pre>
+// cxf进行客户端代码生成
+wsdl2java -d com/ -o e:/2018081401 -client http://localhost:8989/WS_Server/WebService?wsdl
+
+// axis2生成客户端代码
+wsdl2java -uri http://10.220.105.185:8090/PudongDEP/services/PrivilegeControl/webserviceLogin?password=pdsw323006 -p com.axis -o e:\20180814  
+</pre>
